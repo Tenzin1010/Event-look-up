@@ -1,0 +1,14 @@
+.hidden {
+    display: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    width: 10%;
+    height: 10%;
+    border: 1px solid #444;
+    border-radius: 3%;
+}

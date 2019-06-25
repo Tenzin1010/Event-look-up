@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ticketmaster Event Search</title>
+    <link rel="stylesheet" href="main.css">
+    <script
+    src="http://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Look up events</h1>
+        <form id="js-form">
+            <label for="search-term">Type of Event</label>
+            <input type="text" name="search-term" id="js-search-term"><br>
+            
+            <label for="search-term-city">City</label>
+            <input type="text" name="search-term-city" id="js-search-term-city"><br>
+            
+            <label for="max-results">Max results</label>
+            <input type="number" name="max-results" id="js-max-results" value="10"><br>
+            
+            <input type="submit" value="Get Events">
+        </form>
+        <p class="error-message" id="js-error-message"></p>
+        <div id="event-results" class="hidden">
+            <h2>List of Events</h2>
+        </div>
+    </div>
+   <script src="app.js"></script>
+</body>
+</html>
