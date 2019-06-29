@@ -1,5 +1,69 @@
-.hidden {
-    display: none;
+body {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #444;
+}
+
+/* Search screen styling */
+
+.container {
+    width: 500px;
+    height:400px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color:#fff;
+}
+
+#search-screen-title h1 {
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    margin-top: 15%
+}
+
+.search-opt {
+    padding-top: 10px;
+}
+
+.search-opt label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+}
+
+.search-opt input{
+    padding: 3px;
+    font-size: large;
+    color: #939393;
+    border-radius: 5px;
+    
+}
+.search-opt-1 label {
+    margin-right: 45px;
+}
+
+.search-opt-2 label {
+    margin-right: 135px;
+}
+
+.button {
+    padding: 5px;
+    margin-top: 20px;
+}
+.submit-btn input {
+    width: 40%;
+    font-size: 1.1em;
+    border-radius: 5px;
+    cursor: pointer;  
+    background-color: #fefdfb;
+}
+
+.submit-btn input:hover {
+    color: #5D80CB;
 }
 
 li {
@@ -7,8 +71,87 @@ li {
 }
 
 img {
-    width: 10%;
-    height: 10%;
-    border: 1px solid #444;
-    border-radius: 3%;
+    width: 96px;
+    height: 56px;
+    background: transparent;
+    border-radius: 5px;
+}
+
+/* Results screen styling  */
+
+/* div that displays when results are found is hidden until the class is removed */
+.hidden {
+    display: none;
+}
+
+/* div that displays when no results are found is hidden until the class is removed */
+.noresult-hidden{
+    display: none;
+}
+#event-results {
+    width: 600px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding:10px;
+    overflow: auto;
+    border: 1px solid #c2c6c9;
+    border-radius: 5px; 
+    background-color: #fff;
+    
+}
+
+.search-results-list {
+    padding-left: 10px
+}
+.search-results-li {
+    height: 90px;
+    list-style: none;
+    border-bottom: solid 1px #c2c6c9;
+}
+
+.item-details {
+    margin-top: 10px;
+}
+
+.item-MixInfo span {
+    color: #87909A;
+    font-size: small;
+}
+
+.event-item-date-image {
+    float: left;
+    margin-right: 11px;
+    width: 100px;
+    display: table-cell;
+    
+}
+.event-item-date-image span {
+    color: #00A1A1;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 2px;
+}
+.item-header  {
+    color: #0F5B99;
+    font-family: 'Roboto',  sans-serif;
+    font-size: medium;
+    
+}
+
+.item-purchase a {
+    color: #00A1A1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+
+@media only screen and (max-width: 440px) {
+
+}
+@media only screen and (max-width: 770px) and (min-width: 441px) {
+
+}
+@media only screen and (min-width: 770px) {
+    
 }
