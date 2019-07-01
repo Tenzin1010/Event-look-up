@@ -128,8 +128,7 @@ li {
     float: left;
     margin-right: 11px;
     width: 100px;
-    display: table-cell;
-    
+    display: table-cell;   
 }
 
 img {

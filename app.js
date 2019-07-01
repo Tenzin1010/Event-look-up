@@ -45,8 +45,6 @@ function displayResults(responseJson) {
   const embeddedEvents = responseJson._embedded.events;
   for (let i = 0; i < responseJson._embedded.events.length; i++) {
     eventResults.append(`
-    
-    
         <li class="search-results-li">
             <div class="float-item-details">
                 <div class="event-item-date-image">
@@ -80,9 +78,7 @@ function displayResults(responseJson) {
                 </div>
             </div>
         </li>`
-
-    )
-  };
+  )};
   resetButton();
 }
 
@@ -113,17 +109,17 @@ function getEvents(userSearchTerm, userSearchTermCity, maxResults = 10) {
       $('#js-error-message').text(`Something went wrong: ${err.message}`);
       resetButton();
     });
-
 }
+
 //func creates the reset btn action
 function resetButton() {
   $('#reset-btn').on('click', function () {
     $('#event-results').addClass('hidden');
     $('#event-noresults').addClass('noresult-hidden');
     $('#js-error-message').empty();
-
   });
 }
+
 //func captures 3 differnt input from user and sends to getEvents func
 function watchForm() {
   $('form').submit(event => {
