@@ -20,10 +20,11 @@ body {
 #search-screen-title h1 {
     text-transform: uppercase;
     font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
 }
 
 form {
-    margin-top: 15%
+    margin-top: 15%;
 }
 
 .search-opt {
@@ -70,12 +71,7 @@ li {
     list-style: none;
 }
 
-img {
-    width: 96px;
-    height: 56px;
-    background: transparent;
-    border-radius: 5px;
-}
+
 
 /* Results screen styling  */
 
@@ -102,6 +98,12 @@ img {
     
 }
 
+.button {
+    padding: 5px;
+    margin-top: 4px;
+}
+
+
 .search-results-list {
     padding-left: 10px
 }
@@ -127,6 +129,14 @@ img {
     display: table-cell;
     
 }
+
+img {
+    width: 96px;
+    height: 56px;
+    background: transparent;
+    border-radius: 5px;
+}
+
 .event-item-date-image span {
     color: #00A1A1;
     font-family: 'Montserrat', sans-serif;
@@ -147,11 +157,91 @@ img {
 
 
 @media only screen and (max-width: 440px) {
+ 
+    .container {
+        width: 300px;
+        margin-top: 100px;
+        height: 300px;   
+    }
 
+    #js-form {
+        margin-top: 40px;
+    }
+
+    #event-results {
+        width: 300px;
+        height: 500px;
+        margin-top: 50px;
+    }
+    
+    .search-results-li {
+        height: 120px;
+    }
+
+    .event-item-date-image {
+        width: 30px;
+        height: 120px;
+    }
+
+    .event-item-date-image span {
+        font-size: 15px;
+        font-family: Arial, sans-serif;
+    }
+
+    .item-purchase a {
+        font-family: arial, sans-serif;
+        color: #2380ca;
+        
+    }
+
+    .item-header {
+        color: #2380ca;
+        font-size: 15px;
+    }
+    
+
+    .item-MixInfo span {
+        color: #000;
+        font-size: 12px;
+    }
+
+    img {
+        width: 0px;
+        height: 0px;
+    }
 }
 @media only screen and (max-width: 770px) and (min-width: 441px) {
-
-}
-@media only screen and (min-width: 770px) {
     
+    .container {
+        margin-top: 100px;
+    }
+    #search-screen-title h1 {
+        font-size: 1.8rem;
+    }
+    
+    .submit-btn input {
+        width: 40%;
+    }
+    
+    #event-results {
+        width: 450px;
+        margin-top: 70px;    
+    }
+    .search-results-li {
+        height: 120px;
+    }
+    .event-item-date-image {
+        height: 100%;
+    }
+    .item-purchase a {
+        font-family: arial, sans-serif;
+        font-size: medium;
+    }
+
+    .item-MixInfo span {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(red, green, blue);
+        font-size: medium;
+    }
 }
+

@@ -73,7 +73,6 @@ function displayResults(responseJson) {
                                 ${embeddedEvents[i]._embedded.venues[0].city.name}
                             </span>
                         </span>
-
                     </div>
                     <div class="item-purchase">
                         <a href="${embeddedEvents[i].url}" target="_blank">Purchase event ticket</a>
