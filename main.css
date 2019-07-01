@@ -40,9 +40,9 @@ form {
     padding: 3px;
     font-size: large;
     color: #939393;
-    border-radius: 5px;
-    
+    border-radius: 5px;    
 }
+
 .search-opt-1 label {
     margin-right: 45px;
 }
@@ -55,6 +55,7 @@ form {
     padding: 5px;
     margin-top: 20px;
 }
+
 .submit-btn input {
     width: 40%;
     font-size: 1.1em;
@@ -84,6 +85,7 @@ li {
 .noresult-hidden{
     display: none;
 }
+
 #event-results {
     width: 600px;
     height: 500px;
@@ -95,7 +97,6 @@ li {
     border: 1px solid #c2c6c9;
     border-radius: 5px; 
     background-color: #fff;
-    
 }
 
 .button {
@@ -107,6 +108,7 @@ li {
 .search-results-list {
     padding-left: 10px
 }
+
 .search-results-li {
     height: 90px;
     list-style: none;
@@ -142,11 +144,11 @@ img {
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 2px;
 }
+
 .item-header  {
     color: #0F5B99;
     font-family: 'Roboto',  sans-serif;
     font-size: medium;
-    
 }
 
 .item-purchase a {
@@ -210,11 +212,13 @@ img {
         height: 0px;
     }
 }
+
 @media only screen and (max-width: 770px) and (min-width: 441px) {
     
     .container {
         margin-top: 100px;
     }
+
     #search-screen-title h1 {
         font-size: 1.8rem;
     }
@@ -227,12 +231,15 @@ img {
         width: 450px;
         margin-top: 70px;    
     }
+
     .search-results-li {
         height: 120px;
     }
+
     .event-item-date-image {
         height: 100%;
     }
+    
     .item-purchase a {
         font-family: arial, sans-serif;
         font-size: medium;

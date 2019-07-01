@@ -86,7 +86,7 @@ function displayResults(responseJson) {
   resetButton();
 }
 
-//func 
+//func gets response from the api and sets up the fetch
 function getEvents(userSearchTerm, userSearchTermCity, maxResults = 10) {
   const params = {
     classificationName: userSearchTerm,
