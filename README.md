@@ -1,10 +1,14 @@
 # Event-look-up
 
-An event look up application that searches on type or genre of event.
+Thi is an application that searches for events based on type or genre of event that user is interested in. 
 
 ## Motivation 
 
-I wanted to create a 1 step process in looking up paid events without having to look up unnecessary information not pertaining to my interest. 
+I wanted to create a 1 step process in looking up paid events without having to look up unnecessary information not pertaining to my interest.
+
+## Live link
+
+https://tenzin1010.github.io/Event-look-up/
 
 ## Screenshots
 
