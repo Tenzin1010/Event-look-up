@@ -11,15 +11,14 @@
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 </head>
 <body>
-    <main class="container" role="main">
+    <main class="container">
         <div id="event-lookUp-screen">
-            <section>
-            <div id="search-screen-title" role="header">
+            <div id="search-screen-title">
                 <h1>Looking for something to do</h1>
             </div>
             <form id="js-form">
                 <div class="search-opt search-opt-1">
-                    <label for="search-term">Type of Event</label>
+                    <label for="js-search-term">Type of Event</label>
                     <input type="text" list="eventGenre" name="search-term" id="js-search-term"
                         placeholder="ex. Music, sports etc" required> 
                         <datalist id="eventGenre">
@@ -33,11 +32,11 @@
                         </datalist>         
                 </div>
                 <div class="search-opt search-opt-2">
-                    <label for="search-term-city">City</label>
+                    <label for="js-search-term-city">City</label>
                     <input type="text" name="search-term-city" id="js-search-term-city"  required>                 
                 </div>
                 <div class="search-opt search-opt-3">
-                    <label for="max-results">Number of Results</label>
+                    <label for="js-max-results">Number of Results</label>
                     <input type="number" name="max-results" id="js-max-results" min ="1" value="10" required>
                 </div>
                 <div class="button submit-btn">
@@ -49,6 +48,7 @@
             <div id="js-error-message" class="error-message"></div>
             <div id="event-results" class="hidden"></div>
             <div id="event-noresults" class="noresult-hidden"></div>
+        </div>
     </main>
    <script src="app.js"></script>
    <script src="jquery.js"></script>
